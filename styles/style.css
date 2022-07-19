@@ -1,0 +1,47 @@
+/* Comon Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.white-color {
+    color: white;
+}
+
+/* Top Banner Style */
+.container {
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 30px 45px;
+}
+
+.top-banner {
+    display: flex;
+
+}
+
+.banner {
+    width: 50%;
+    padding: 20px 30px;
+    margin: 0 20px;
+}
+
+.banner a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+
+}
+
+.banner img {
+    width: 100%;
+}
