@@ -47,6 +47,29 @@ h2 {
 
 }
 
+/* Animation */
+@keyframes sliding {
+    from {
+        color: #161616;
+        left: 0px;
+
+    }
+
+    to {
+        color: white;
+        left: 400px;
+    }
+
+}
+
+.fa-futbol {
+    font-size: 28px;
+    color: white;
+    position: relative;
+    animation: sliding 3s ease-in-out infinite alternate;
+    animation-play-state: running;
+}
+
 .banner img {
     width: 100%;
 }
@@ -55,7 +78,6 @@ h2 {
 .feature-buttons {
     height: 300px;
     width: 300px;
-    position: sticky;
     background: #161616;
     border-radius: 10px;
     margin: 100px 20px 0 5px;
@@ -166,11 +188,16 @@ footer h2 {
 
 /* Upcoming Matches Styles */
 .match {
+    width: 300px;
+    height: 100px;
+}
+
+.match-item {
     display: flex;
     align-items: center;
 }
 
-.match img {
+.match-item img {
     width: 100%;
     padding: 0 20px;
     margin: 0 10px;
