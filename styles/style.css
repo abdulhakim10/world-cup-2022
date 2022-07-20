@@ -14,14 +14,14 @@ h1 {
     color: white;
 }
 
-/* Top Banner Style */
+/*Header Style */
 .container {
     background-color: #161616;
     border-radius: 30px;
     margin: 30px 45px;
 }
 
-.top-banner {
+.flex-banner {
     display: flex;
 
 }
@@ -44,4 +44,41 @@ h1 {
 
 .banner img {
     width: 100%;
+}
+
+/* Blog Styles */
+.blogs {
+    height: 300px;
+    width: 300px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.blog-features {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.button-style {
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 10px;
+
+
+}
+
+.button-style a {
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.color-red {
+    background-color: #DD0000;
+}
+
+.color-red a {
+    color: white;
 }
