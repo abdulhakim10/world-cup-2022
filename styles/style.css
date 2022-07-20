@@ -162,6 +162,28 @@ footer h2 {
     color: lightgray;
     font-size: 40px;
     margin: 20px 15px 0 0;
+}
 
+/* Upcoming Matches Styles */
+.match {
+    display: flex;
+    align-items: center;
+}
 
+.match img {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 10px;
+}
+
+.match-info {
+    line-height: 0.7;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-info p {
+    color: #7d7c7c;
 }
