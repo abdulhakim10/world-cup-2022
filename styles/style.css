@@ -10,12 +10,17 @@ h1 {
     line-height: 80px;
 }
 
+h2 {
+    font-size: 18px;
+}
+
 .white-color {
     color: white;
 }
 
 /*Header Style */
 .container {
+    width: 1200px;
     background-color: #161616;
     border-radius: 30px;
     margin: 30px 45px;
@@ -46,15 +51,17 @@ h1 {
     width: 100%;
 }
 
-/* Blog Styles */
-.blogs {
+/* Feature Button Styles */
+.feature-buttons {
     height: 300px;
     width: 300px;
+    position: sticky;
     background: #161616;
     border-radius: 10px;
+    margin: 100px 20px 0 5px;
 }
 
-.blog-features {
+.buttons {
     height: 100%;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -81,4 +88,41 @@ h1 {
 
 .color-red a {
     color: white;
+}
+
+/* Blog Styles */
+.blogs-container {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-top: 100px;
+}
+
+.blog {
+    width: 300px;
+    height: 300px;
+
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-detail {
+    margin: 10px;
+}
+
+.blog-info {
+    display: flex;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 10px;
 }
